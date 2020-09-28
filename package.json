@@ -1,0 +1,22 @@
+{
+  "name": "bootli",
+  "version": "0.0.1",
+  "description": "raft algorithmus implementiert in node.js",
+  "main": "bundle.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.1",
+    "polka": "^0.5.2",
+    "sha256-wasm": "^2.1.0",
+    "sirv": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "viewer": "npx sirv-cli ./public -c -D",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
